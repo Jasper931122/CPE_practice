@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 cmb = [0] * 30001
 cmb[0] = 1
 
@@ -15,8 +12,6 @@ while True:
     n = int(s.replace('.', ''))
     if n == 0:
         break
-=======
->>>>>>> c0e8d1b (2025/10/06)
 cmb = [0] * 30001
 cmb[0] = 1
 
@@ -31,8 +26,4 @@ while True:
     n = int(s.replace('.', ''))
     if n == 0:
         break
-<<<<<<< HEAD
-=======
->>>>>>> c8c7349 (10/06)
->>>>>>> c0e8d1b (2025/10/06)
     print(f'{s:>6}{cmb[n]:>17}')
