@@ -6,7 +6,10 @@ while True:
         s = list(input().lower())
     except:
         break
-    for i in range(len(s)):
-        if s[i] != ' ':
-            s[i] = b[a.index(s[i])]
-    print(''.join(s))
+    for i in s:
+        if i != ' ':
+            idx = a.index(i)
+            print(b[idx], end='')
+        else:
+            print(' ', end='')
+    print()
